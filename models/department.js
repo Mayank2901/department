@@ -1,7 +1,5 @@
 var mongoose=require('mongoose');
 
-var ObjectId = mongoose.Schema.Types.ObjectId;
-
 var department=mongoose.model(department,{
 	dep_name: {type:String},
 	company_name: {type:String},
